@@ -14,7 +14,7 @@ export default function Home() {
           <div className=" border-secondary border-t-2 p-4">
             <table className="table ">
 
-              <thead>
+              <thead className="text-gray-600">
                 <tr>
 
                   <th>Name</th>
@@ -30,7 +30,7 @@ export default function Home() {
 
                   <td>
                     <div className="flex items-center gap-3 ">
-                    <div className="skeleton h-12 w-12"></div>
+                    <div className="skeleton h-12 w-12 bg-gray-200"></div>
                       {/*
                       <div className="avatar placeholder "
                         <div className="bg-blue-800 text-white w-12 rounded-full font-bold text-lg ">
@@ -38,17 +38,17 @@ export default function Home() {
                         </div>
                       </div>*/}
                       <div>
-                      <div className="skeleton h-2 w-12 my-2"></div>
-                      <div className="skeleton h-2 w-16"></div>
+                      <div className="skeleton h-2 w-12 my-2 bg-gray-200"></div>
+                      <div className="skeleton h-2 w-16 bg-gray-200"></div>
                       </div>
                     </div>
                   </td>
              
                   <td className="text-lg font-bold">
-                  <div className="skeleton h-2 w-8 my-2"></div>
+                  <div className="skeleton h-2 w-8 my-2 bg-gray-200"></div>
                   </td>
                   <td>
-                  <div className="skeleton h-2 w-4 my-2"></div>
+                  <div className="skeleton h-2 w-4 my-2 bg-gray-200"></div>
                   </td>
 
                 </tr>
@@ -57,7 +57,7 @@ export default function Home() {
 
                   <td>
                     <div className="flex items-center gap-3">
-                    <div className="skeleton h-12 w-12"></div>
+                    <div className="skeleton h-12 w-12 bg-gray-200"></div>
                      {/*   
                       <div className="avatar placeholder">
                         <div className="bg-pink-500 text-white w-12 rounded-full font-bold text-lg">
@@ -65,17 +65,17 @@ export default function Home() {
                         </div>
                       </div>*/}
                       <div>
-                      <div className="skeleton h-2 w-12 my-2"></div>
-                      <div className="skeleton h-2 w-16"></div>
+                      <div className="skeleton h-2 w-12 my-2 bg-gray-200"></div>
+                      <div className="skeleton h-2 w-16 bg-gray-200"></div>
                       </div>
                     </div>
                   </td>
         
                   <td className="text-lg font-bold">
-                  <div className="skeleton h-2 w-8 my-2"></div>
+                  <div className="skeleton h-2 w-8 my-2 bg-gray-200"></div>
                   </td>
                   <td>
-                  <div className="skeleton h-2 w-4 my-2"></div>
+                  <div className="skeleton h-2 w-4 my-2 bg-gray-200"></div>
                   </td>
 
                 </tr>
@@ -141,7 +141,7 @@ export default function Home() {
       strokeWidth="2"
       d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
   </svg>
-  <span className="text-sm font-semibold">If you're registered but not on the leaderboard yet, don't worry 😅, it will be updated within 24 hrs ⏰!</span>
+  <span className="text-sm font-semibold text-gray-900">If you're registered but not on the leaderboard yet, don't worry 😅, it will be updated within 24 hrs ⏰!</span>
 </div>
 
           </div>
