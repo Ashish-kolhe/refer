@@ -5,13 +5,7 @@ const Footer = () => {
     <div>
      
     <footer className="footer footer-center bg-white text-gray-950 rounded p-10">
-<nav className="grid grid-flow-col gap-4 font-bold">
-<a href='/about-us' className="link link-hover">About us</a>
-<a href='/contact-us' className="link link-hover">Contact us</a>
-<a href='/privacy-policy' className="link link-hover">Privacy Policy</a>
-<a href='/refund-policy' className="link link-hover">Refund Policy</a>
-<a href='/termsandconditions' className="link link-hover">Terms & Conditions</a>
-</nav>
+
 <nav>
 <div className="grid grid-flow-col gap-4">
   <a href='https://instagram.com/ashishkolhe_'>
