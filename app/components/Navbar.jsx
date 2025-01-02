@@ -18,7 +18,7 @@ const Navbar = () => {
   <div className="navbar-center">
    
     <a className="font-black text-xl text-gray-900 " >Leaderboard</a>
-    <img className='w-12 -mt-4' src="./Ranking.gif" alt="" />
+    <img className='w-12 -mt-4' src="./Leaderboard.gif" alt="" />
   </div>
   <div className="navbar-end">
 

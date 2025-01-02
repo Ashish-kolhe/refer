@@ -9,7 +9,7 @@ export default function Home() {
       <div className=" flex-row justify-items-center mt-4 mb-10">
 
 
-        <div className="text-sm font-black   badge-secondary rounded-tl-xl rounded-tr-xl px-2 ">January 2025</div>
+        <div className="text-sm font-black   badge-secondary rounded-tl-xl rounded-tr-xl px-2 text-white">January 2025</div>
         <div className="flex justify-center max-w-2xl ">
           <div className=" border-secondary border-t-2 p-4">
             <table className="table ">
